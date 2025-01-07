@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+/* Nav styles */
+.navbar{
+    display: flex;
+}
+
+.nav-title{
+    font-size: 33.5px;
+    font-weight: 800;
+}
+
+.title-r{
+    color: #FD6E0A;
+}
