@@ -14,7 +14,10 @@
     font-variation-settings:
       "wdth" 100;
 }
-/* Colors */
+/* Colors and shared styles */
+.secondary-bgc{
+    background-color: #FFF8F3;
+}
 .dark-1{
     color: #181818;
 }
@@ -24,13 +27,26 @@
 .dark-3{
     color: #757575;
 }
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
 /* header */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left , bottom right;
     /* margin-left: 20px; */
-    margin-right: -50px;
+    margin-top: 0px;
     
 }
 
@@ -39,7 +55,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 230px;
+    margin: 0px 230px;
+    padding-top: 50px;
 }
 
 .nav-elements{
@@ -94,6 +111,7 @@ nav ul{
 .banner-greetings{
     font-weight: 600;
     font-size: 45px;
+    margin-top: 200px;
 }
 
 .banner-title{
@@ -103,8 +121,46 @@ nav ul{
 
 .banner-description{
     font-size: 18px;
+    margin-top:30px;
+    margin-bottom: 35px;
 }
 
 .profile-pic{
     width: 585px;
+    margin-top: 80px;
 }
+
+.Contact{
+    margin-left: 30px;
+    background-color: #fff;
+    border: 2px solid #FD6E0A ;
+    color: #FD6E0A;
+}
+
+/* main styles */
+main{
+    max-width: 1080px;
+    margin: auto;
+}
+/* About styles */
+.about{
+    border-radius: 10px;
+    padding:130px 155px ;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.about-item > p{
+    color: #757575;
+}
+
+.about-item > h4 {
+    color: #474747;
+}
+
