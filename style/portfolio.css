@@ -192,3 +192,45 @@ main{
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
+/* resume styles */
+.resume-section{
+    margin-bottom: 112px;
+}
+.resume{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    margin-top: 112px;
+}
+
+.resume-title{
+    text-align: center;
+}
+
+.education, .experience{
+    font-size: 30px;
+}
+.degree{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.degree-from{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-spacing-trim: 5px;
+}
+
+.downld-cv-btn{
+    text-align: center;
+    margin-top: 50px;
+
+}
