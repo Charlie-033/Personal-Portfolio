@@ -300,5 +300,32 @@ footer input[type="text"],[type="email"],textarea{
     }
 }
 
+/* Responsive for tablets */
+
+@media screen and (min-width:577px) and (max-width:1025px){
+    .banner{
+        flex-direction: column;
+    }
+    .navbar{
+        margin: 0px 50px;
+        
+    }
+    .profile-pic{
+        width: 100%;
+    }
+    .skills-container{
+        display: grid;
+        /* grid-template-columns: repeat(2,1f); */
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer{
+        padding: 20px;
+    }
+    footer input[type="text"],[type="email"],textarea{
+        width: calc(100% - 50px);
+    }
+}
 
 
