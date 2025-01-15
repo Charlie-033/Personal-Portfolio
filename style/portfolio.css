@@ -266,4 +266,39 @@ footer input[type="text"],[type="email"],textarea{
     border: none;
 }
 
+/* Responsive Webpage */
+
+@media screen and (max-width: 576px){
+    .skills-container, .about-items, .banner,.nav-elements{
+        flex-direction: column;
+    }
+    .banner, .navbar{
+        margin: 10px;
+    }
+    .nav-elements{
+        gap: 20px;
+        margin-right: -10px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .profile-pic{
+        width: 100%;
+    }
+    .resume{
+        flex-direction: column;
+    }
+    footer, .about{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"],[type="email"],textarea{
+        width: calc(100% - 50px);
+    }
+}
+
+
 
